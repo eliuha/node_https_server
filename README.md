@@ -11,7 +11,7 @@ A simple way to share a directory using node.js.
 **Don't forget to put them in ./keys**
 
 ```bash
-openssl genrsa -des3 -out private.pem 2048
+openssl genrsa -des3 -out private.pem 4096
 openssl rsa -in private.pem -outform PEM -pubout -out public.pem
 
 openssl req -key private_key.pem -new -out request.csr
