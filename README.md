@@ -8,7 +8,7 @@ A simple way to share a directory using node.js.
 + npm install url
 
 ## Generate Keys using openssl
-** Don't forget to put them in ./keys **
+**Don't forget to put them in ./keys**
 
 ```bash
 openssl genrsa -des3 -out private.pem 2048
