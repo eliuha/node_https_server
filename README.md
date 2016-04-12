@@ -1,6 +1,9 @@
 # node_https_server
 A simple way to share a directory using node.js. 
 
+## Install node.js
+https://nodejs.org/en/download/stable/
+
 ## Before running, make sure that you have the following libs 
 + npm install https
 + npm install fs
